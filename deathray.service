@@ -1,0 +1,11 @@
+[Unit]
+Description=ANERIS EMUAS Deathray Service For Giving Fish Cancer
+
+[Service]
+User=www-data
+WorkingDirectory=/opt/deathray
+ExecStart=/usr/bin/python3 uvc.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
