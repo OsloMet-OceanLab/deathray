@@ -2,7 +2,7 @@
 Description=ANERIS EMUAS Deathray Service For Giving Fish Cancer
 
 [Service]
-User=www-data
+User=emuas
 WorkingDirectory=/opt/deathray
 ExecStart=/usr/bin/python3 uvc.py
 Restart=always
