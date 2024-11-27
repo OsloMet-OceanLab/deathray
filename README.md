@@ -99,7 +99,6 @@ cat /etc/passwd | grep emuas
 if this yields no printouts, then we have to create the user and add it to correct groups:
 ```shell
 sudo useradd -r -s /usr/sbin/nologin emuas
-sudo groupadd emuas
 ```
 Add user to gpio:
 ```shell
