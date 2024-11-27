@@ -4,6 +4,10 @@ Death Ray Service (DRS) is a service that only turns on the anti-biofouling UVC 
 ## Features
 - Anti-biofiling UVC light with a $4.2\%$ duty-cycle
 - Possibility to diside when to use UVC
+- Mutable configuration file. The start and end times of the UVC period can be changed in the `config.json` file. Any updates done to the configuration can be enabled by restarting the service as such:
+```shell 
+sudo systemctl restart deathray.service
+```
 
 ## Future work
 Implement a driver circuit for the UVC in order to obtain a higher duty-cycle.
