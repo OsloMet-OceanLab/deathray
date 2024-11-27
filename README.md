@@ -37,7 +37,7 @@ If you get an answer an no packets lost you have successfully connected to the R
 
 
 ### Step 1: Copy or clone repo
-There are two ways of getting the NLS on the desired Raspberry Pi: a) clone repo onto your PC and copy it over or b) clone it directly to the Pi.
+There are two ways of getting the DRS on the desired Raspberry Pi: a) clone repo onto your PC and copy it over or b) clone it directly to the Pi.
 
 #### A: Copy over to Pi using scp
 If you don't want to log into git on the host device, there is an option to clone this repo onto your personal computer before copying it over afterwards. In order to do this first clone the repo to a fitting place your computer, either with https or ssh:
